@@ -1,2 +1,32 @@
 body {
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  flex-direction: column;
+}
+
+.navbar {
+  margin: 10px;
+  display: block;
+  height: 200px;
+}
+
+.li-title {
+  float: left;
+  margin: 0 0 0 174px;
+}
+
+ul {
+  margin: 20px 0 0 0;
+
+  list-style-type: none;
+}
+
+li {
+  float: right;
+  margin: 0px 5px 0 -14px;
+  padding: 0 77px 0 14px;
+}

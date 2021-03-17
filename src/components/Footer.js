@@ -4,7 +4,7 @@ import React from 'react'
 function Footer(){
   return(
     <div>
-      footer
+      Copyright © Your Website 2020
     </div>
   )
 }
