@@ -9,6 +9,7 @@ function Bloglist(){
   return(
     <div className="container">
      {blogArray}
+     
     </div>
   )
 }

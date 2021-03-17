@@ -1,17 +1,22 @@
 body {
+  margin: 0 0 0 0;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  margin: 15px;
+  margin-left: 499px;
   flex-direction: column;
+  width: 535px;
 }
 
 .navbar {
-  margin: 10px;
+  color: white;
+  position: relative;
+  bottom: 536px;
   display: block;
-  height: 200px;
+  height: 42px;
+  font-size: 21px;
 }
 
 .li-title {
@@ -29,4 +34,58 @@ li {
   float: right;
   margin: 0px 5px 0 -14px;
   padding: 0 77px 0 14px;
+}
+.title {
+  font-size: 91px;
+  bottom: 466px;
+  color: white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.description {
+  position: relative;
+  bottom: 516px;
+  font-size: 28px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.blogpost {
+}
+
+.image {
+  top: 0;
+  left: 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.header {
+  height: 527px;
+  background-color: #212529;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #0085a1;
+  font-size: 17px;
+  border-color: #0085a1;
+  color: white;
+  position: absolute;
+  margin: 5px 0 10px 0;
+  height: 40px;
+  right: 300px;
+  width: 110px;
+}
+.p-footer {
+  margin: 101px;
 }
